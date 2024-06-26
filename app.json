@@ -1,0 +1,35 @@
+{
+    "name": "𝗕𝗟𝗢𝗢𝗗𝗬 𝗗𝗔𝗗𝗗𝗬 𝗨𝗦𝗘𝗥𝗕𝗢𝗧",
+    "logo": "https://graph.org/file/a2015f8e3888b2ee25478.jpg",
+    "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
+    "keywords": ["pyrogram", "userbot"],
+    "repository": "https://github.com/gamechanger4447/BLODDYDADDYUSERBOT",
+  "stack": "container",
+    "env": {
+        "STRING_SESSION1": {
+            "description": "fill with the telethon session string",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "Fill there an mongo database from mongodb.com",
+            "required": true,
+            "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
+        },
+        "SUDO_USERS": {
+            "description": "don't Change this there /id",
+            "required": true,
+            "value": "6762113050 6919199044"
+        },
+        "OWNER_ID": {
+            "description": "Fill there your I'd",
+            "required": true,
+            "value": "6762113050"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }
